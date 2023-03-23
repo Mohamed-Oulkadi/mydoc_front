@@ -2,6 +2,8 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:mydoc/screens/home_screen.dart';
 
+import '../screens/messages_screen.dart';
+import '../screens/schedule_screeen.dart';
 import '../screens/settings_screen.dart';
 
 class NavBarRoots extends StatefulWidget {
@@ -13,8 +15,8 @@ class _NavBarRootsState extends State<NavBarRoots> {
   int _selectedIndex = 0;
   final _screens = [
     HomeScreen(),
-    Container(),
-    Container(),
+    ScheduleScreen(),
+    MessagesScreen(),
     SettingScreen(),
   ];
 
